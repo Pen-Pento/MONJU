@@ -7,9 +7,9 @@ html {
   font-size: 62.5%;
 }
 body {
-  background: #151515 url('../images/bg.png') no-repeat fixed left bottom;
+  background-color: #fff;
   background-size: cover;
-  color: #fff;
+  color: #3B3838;
   text-align: center;
   font-size: 1.4rem;
   font-family:  'Josefin Slab', serif, "Hiragino Kaku Gothic ProN",  Meiryo,  sans-serif;
@@ -37,7 +37,7 @@ body {
   right: 0;
   bottom: 0;
   left: 0;
-  border-bottom: 1px solid #999;
+  border-bottom: 1px solid #3b3838;
 }
 .heading::before {
   bottom: 5px;
@@ -47,7 +47,7 @@ body {
   width: 200px;
   padding: 20px;
   border-radius: 4px;
-  background-color: #afa58d;
+  background-color: #D7AC36;
   color: #fff;
   text-decoration: none;
   letter-spacing: 1px;
@@ -83,8 +83,12 @@ body {
   width: 140px;
   height: 2px;
   margin: 0 30px;
-  background-color: #fff;
+  background-color: #3b3838;
   vertical-align: middle;
+}
+.title-logo{
+  height: 150px;
+  width: 167px;
 }
 .site-title {
   margin: 50px 0 40px;
@@ -112,7 +116,10 @@ body {
   margin: 30px 0;
   line-height: 2.5;
 }
-
+.about-logo{
+  height: 50px;
+  width: 52px;
+}
 
 /* --------------------------------
  * works
