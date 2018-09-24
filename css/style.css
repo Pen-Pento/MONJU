@@ -37,7 +37,7 @@ body {
   right: 0;
   bottom: 0;
   left: 0;
-  border-bottom: 1px solid #3b3838;
+  border-bottom: 1px solid #ffc000;
 }
 .heading::before {
   bottom: 5px;
@@ -109,8 +109,8 @@ body {
  * -------------------------------- */
 .about {
   padding: 80px 30px;
-  background-color: #fff;
-  color: #333;
+  background-color: #44546a;
+  color: #fff;
 }
 .about-text {
   margin: 30px 0;
@@ -126,7 +126,8 @@ body {
  * -------------------------------- */
 .works {
   padding: 80px 0;
-  background-color: #383634;
+  background-color: #44546a;
+  color: #fff;
 }
 .works-wrapper {
   display: table;
@@ -229,6 +230,15 @@ body {
   font-size: 8rem;
   line-height: 142px;
 }
+.ideas-color{
+  color: #0070c0;
+}
+.design-color{
+  color: #70ad47;
+}
+.coding-color{
+  color: #c00000;
+}
 .skill-title {
   margin: 0 20px 20px;
   font-size: 2rem;
@@ -256,10 +266,10 @@ body {
   margin-bottom: 10px;
   padding: 15px;
   outline: none;
-  border: 1px solid rgba(255, 255, 255, 0.4);
-  border-radius: 0;
+  border: 5px solid #3B3838;
+  border-radius: 15px;
   background-color: rgba(255, 255, 255, 0.05);
-  color: #fff;
+  color: #3b3838;
 }
 .contact-form input[type=text]:focus,
 .contact-form textarea:focus {
