@@ -46,12 +46,13 @@ body {
   display: inline-block;
   width: 200px;
   padding: 20px;
-  border-radius: 4px;
+  border-radius: 25px;
   background-color: #D7AC36;
   color: #fff;
   text-decoration: none;
   letter-spacing: 1px;
   font-size: 1.2rem;
+  height: 50px;
 }
 .button:hover {
   opacity: 0.9;
@@ -69,10 +70,10 @@ body {
  * header
  * -------------------------------- */
 .header {
-  padding: 170px 30px 80px;
+  padding: 100px 30px 80px;
 }
 .site-title-sub {
-  margin: 0 0 30px;
+  margin: 0 0 80px;
   letter-spacing: 1px;
   font-size: 2.2rem;
 }
@@ -80,7 +81,7 @@ body {
 .site-title-sub::after {
   content: '';
   display: inline-block;
-  width: 140px;
+  width: 60px;
   height: 2px;
   margin: 0 30px;
   background-color: #3b3838;
@@ -89,9 +90,10 @@ body {
 .title-logo{
   height: 150px;
   width: 167px;
+  margin: 0 0 30px;
 }
 .site-title {
-  margin: 50px 0 40px;
+  margin: 50px 0 15px 0;
   font-size: 7.6rem;
 }
 .site-description {
@@ -100,7 +102,7 @@ body {
   font-size: 1.6rem;
 }
 .buttons .button {
-  margin: 10px;
+  margin: 0 50px 0 50px;
 }
 
 
