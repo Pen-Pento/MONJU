@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+  <title>シングルページレイアウト</title>
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/slick.css" />
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header">
+    <h1 class="site-title">MONJU</h1>
+    <p class="site-title-sub">Web Creators Team</p>
+    <img class="title-logo" src="images/top_logo.png" alt="logo">
+    <p class="site-description"></p>
+    <div class="buttons">
+      <a class="button" href="#about">LEARN MORE</a>
+      <a class="button button-showy" href="#contact">SEND MESSAGE</a>
+    </div>
+  </header>
+  <section class="about" id="about">
+    <h2 class="heading">ABOUT US</h2>
+    <p class="about-text">
+      初めまして。私たちはWebクリエイター集団MONJUです。<br>
+      板垣・大越・橋本の３人で、Web関連で開発・制作をしています。
+    </p>
+    <p class="about-text">
+      このサイトを通して、私たちについて少しでも深く知っていただけたらと思います。<br>
+      また、受託事業も行っておりますので、お気軽にご連絡ください。<br>
+      ご連絡ごは順次ご相談させていただく形になります。
+    </p>
+    <img class="about-logo" src="images/top_logo.png" alt="logo">
+  </section>
+  <section class="skills">
+    <h2 class="heading">OUR SKILLS</h2>
+    <div class="skills-wrapper">
+      <div class="skill-box">
+        <i class="skill-icon ideas-color fas fa-lightbulb"></i>
+        <div class="skill-title">IDEAS</div>
+        <p class="skill-text">
+          何かを考えることが好きです。<br>
+          新しいことを思いついては試しています。<br>
+          ディレクションの経験もあります。
+        </p>
+      </div>
+      <div class="skill-box">
+        <i class="skill-icon design-color fas fa-palette"></i>
+        <div class="skill-title">DESIGN</div>
+        <p class="skill-text">
+          見た目の綺麗さだけじゃなくて、<br>
+          使いやすさ、情報の伝わりやすさなど、<br>
+          その先まで考えることを意識しています。
+        </p>
+      </div>
+      <div class="skill-box">
+        <i class="skill-icon coding-color fas fa-desktop"></i>
+        <div class="skill-title">CODING</div>
+        <p class="skill-text">
+          HTML/CSSコーディングも行います。<br>
+          正しく美しいマークアップと、<br>
+          今後の変更への強さを考慮しています。
+        </p>
+      </div>
+    </div>
+  </section>
+  <section class="works">
+    <h2 class="heading">WORKS</h2>
+    <div class="works-wrapper">
+      <div class="work-box tree">
+        <img class="work-image" src="images/tree.jpg" alt="制作事例１">
+        <div class="work-description">
+          <div class="work-description-inner">
+            <p class="work-text">
+              一つ目の制作事例が入ります。<br>
+              簡単な説明が入ります。<br>
+              使用ツール：xxx xxx xxx<br>
+              <a href="#" class="button button-ghost">READ MORE</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="work-box building">
+        <img class="work-image" src="images/building.jpg" alt="制作事例２">
+        <div class="work-description">
+          <div class="work-description-inner">
+            <p class="work-text">
+              ふたつ目の制作事例が入ります。<br>
+              簡単な説明が入ります。<br>
+              使用ツール：xxx xxx xxx<br>
+              <a href="#" class="button button-ghost">READ MORE</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="work-box lake">
+        <img class="work-image" src="images/lake.jpg" alt="制作事例３">
+        <div class="work-description">
+          <div class="work-description-inner">
+            <p class="work-text">
+              ３つ目の制作事例が入ります。<br>
+              簡単な説明が入ります。<br>
+              使用ツール：xxx xxx xxx<br>
+              <a href="#" class="button button-ghost">READ MORE</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="work-box sky">
+        <img class="work-image" src="images/sky.jpg" alt="制作事例４">
+        <div class="work-description">
+          <div class="work-description-inner">
+            <p class="work-text">
+              ４つ目の制作事例が入ります。<br>
+              簡単な説明が入ります。<br>
+              使用ツール：xxx xxx xxx<br>
+              <a href="#" class="button button-ghost">READ MORE</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="contact" id="contact">
+    <h2 class="heading">CONTACT</h2>
+    <form class="contact-form">
+      <input type="text" name="name" placeholder="NAME">
+      <textarea name="message" placeholder="MESSAGE"></textarea>
+      <input type="submit" value="SEND">
+    </form>
+  </section>
+  <footer class="footer">
+    © monju
+  </footer>
+  <script src="lib/placeholders.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="lib/slick.js"></script>
+</body>
+</html>
