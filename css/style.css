@@ -193,7 +193,7 @@ body {
   transform: scaleY(-1);
 }
 .work-box.tree::after {
-  background-image: url('../images/tree.jpg');
+  background-image: url('../images/recotto.png');
 }
 .work-box.building::after {
   background-image: url('../images/building.jpg');
