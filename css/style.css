@@ -26,9 +26,9 @@ body {
   position: relative;
   display: inline-block;
   margin: 30px 0 15px;
-  padding-bottom: 15px;
+  padding-bottom: 5px;
   letter-spacing: 2px;
-  font-size: 4rem;
+  font-size: 6rem;
 }
 .heading::before,
 .heading::after {
@@ -110,17 +110,24 @@ body {
  * about
  * -------------------------------- */
 .about {
-  padding: 80px 30px;
+  padding: 70px 30px;
   background-color: #44546a;
   color: #fff;
 }
+.about-wrapper{
+  padding-top: 30px;
+}
 .about-text {
-  margin: 30px 0;
+  margin: 15px 0;
   line-height: 2.5;
+  font-size: 1.7rem;
+  font-weight: bold;
+  letter-spacing: 2px;
 }
 .about-logo{
-  height: 50px;
-  width: 52px;
+  margin-top: 50px;
+  height: 100px;
+  width: 102px;
 }
 
 /* --------------------------------
@@ -398,43 +405,3 @@ body {
 }
 
 
-/* --------------------------------
- * challenge
- *
- * 31行目からの.heading::before, .heading::afterの
- * スタイルをコメントアウトしてから適用してください。
- * -------------------------------- */
-/*
-.heading::before,
-.heading::after {
-  content: '';
-  display: inline-block;
-  width: 0.3em;
-  height: 0.3em;
-  margin: 0 0.5em;
-  border: 1px solid;
-  vertical-align: 0.2em;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
-}
-.work-box {
-  overflow: hidden;
-}
-.work-image {
-  transition: -webkit-transform 0.5s ease-in-out;
-  transition: transform 0.5s ease-in-out;
-}
-.work-box:nth-child(odd) .work-image {
-  -webkit-transform-origin: top center;
-  transform-origin: top center;
-}
-.work-box:nth-child(even) .work-image {
-  -webkit-transform-origin: bottom center;
-  transform-origin: bottom center;
-}
-.work-box:hover .work-image {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-}
-*/
