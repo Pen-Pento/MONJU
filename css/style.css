@@ -50,7 +50,7 @@ body {
   width: 200px;
   padding: 20px;
   border-radius: 25px;
-  background-color: #D7AC36;
+  background-color: #d7ac36;
   color: #fff;
   text-decoration: none;
   letter-spacing: 1px;
@@ -199,13 +199,13 @@ body {
   background-image: url('../images/recotto.png');
 }
 .work-box.building::after {
-  background-image: url('../images/building.jpg');
+  background-image: url('../images/placeholder.jpg');
 }
 .work-box.lake::after {
-  background-image: url('../images/lake.jpg');
+  background-image: url('../images/placeholder.jpg');
 }
 .work-box.sky::after {
-  background-image: url('../images/sky.jpg');
+  background-image: url('../images/placeholder.jpg');
 }
 .work-box:nth-child(odd) .work-image {
   margin: 60% 0 0;
