@@ -143,78 +143,9 @@ body {
   color: #fff;
 }
 .works-wrapper {
-  display: table;
-  width: 100%;
-  margin-top: 60px;
-  table-layout: fixed;
+  width: 80%;
+  margin: 60px auto 0;
 }
-.work-box {
-  position: relative;
-  display: table-cell;
-}
-.work-image {
-  display: block;
-  width: 100%;
-  margin: 0 0 60%;
-}
-.work-description {
-  position: absolute;
-  top: 50%;
-  left: 0;
-  z-index: 1;
-  width: 100%;
-  height: 50%;
-  overflow-y: auto;
-}
-.work-description-inner {
-  display: table;
-  width: 100%;
-  height: 100%;
-  padding: 20px;
-}
-.work-text {
-  display: table-cell;
-  vertical-align: middle;
-  font-size: 1.2rem;
-  line-height: 2;
-}
-.work-text .button {
-  width: 60%;
-  margin-top: 20px;
-  padding: 3px;
-}
-.work-box::after {
-  content: '';
-  position: absolute;
-  top: 50%;
-  left: 0;
-  width: 100%;
-  height: 50%;
-  background: no-repeat;
-  background-size: 100% 100%;
-  opacity: 0.2;
-  transform: scaleY(-1);
-}
-.work-box.tree::after {
-  background-image: url('../images/recotto.png');
-}
-.work-box.building::after {
-  background-image: url('../images/placeholder.jpg');
-}
-.work-box.lake::after {
-  background-image: url('../images/placeholder.jpg');
-}
-.work-box.sky::after {
-  background-image: url('../images/placeholder.jpg');
-}
-.work-box:nth-child(odd) .work-image {
-  margin: 60% 0 0;
-}
-.work-box:nth-child(odd) .work-description,
-.work-box:nth-child(odd)::after {
-  top: 0;
-}
-
 
 /* --------------------------------
  * skills
@@ -322,4 +253,120 @@ body {
   font-size: 1.3rem;
 }
 
+/*---------------------------------
+ * slider
+ *---------------------------------*/
+ .slider-container, .slider-nav-container {
+  display: none;
+  position: relative;
+}
+.slider-container.initialized, .slider-nav-container.initialized {
+  display: block;
+}
+.slider-nav-container {
+  margin-top: 18px;
+}
+.slider {
+  overflow: hidden;
+}
+.slider-nav {
+  margin: 0 26px;
+}
+.slider-arrow {
+  position: absolute;
+  top: 50%;
+  height: 36px;
+  margin-top: -18px;  /* 高さの半分だけネガティブマージン */
+  color: #aaa;
+  line-height: 36px;
+  font-size: 28px;
+  cursor: pointer;
+  z-index: 10;  /* 重要 */
+}
+.slider-prev {
+  left: 0;
+}
+.slider-next {
+  right: 0;
+}
+.slick-slide {
+  outline: 0;
+}
+.slider .slick-slide > img, .slider-nav .slick-slide > img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
 
+
+
+/*--------------------------------
+.work-box {
+  position: relative;
+  display: table-cell;
+}
+.work-image {
+  display: block;
+  width: 100%;
+  margin: 0 0 60%;
+}
+.work-description {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 50%;
+  overflow-y: auto;
+}
+.work-description-inner {
+  display: table;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+}
+.work-text {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 1.2rem;
+  line-height: 2;
+}
+.work-text .button {
+  width: 60%;
+  margin-top: 20px;
+  padding: 3px;
+}
+.work-box::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  background: no-repeat;
+  background-size: 100% 100%;
+  opacity: 0.2;
+  transform: scaleY(-1);
+}
+.work-box.tree::after {
+  background-image: url('../images/recotto.png');
+}
+.work-box.building::after {
+  background-image: url('../images/placeholder.jpg');
+}
+.work-box.lake::after {
+  background-image: url('../images/placeholder.jpg');
+}
+.work-box.sky::after {
+  background-image: url('../images/placeholder.jpg');
+}
+.work-box:nth-child(odd) .work-image {
+  margin: 60% 0 0;
+}
+.work-box:nth-child(odd) .work-description,
+.work-box:nth-child(odd)::after {
+  top: 0;
+}
+
+table部分
+---------------------------------------*/

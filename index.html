@@ -3,12 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
-  <title>シングルページレイアウト</title>
+  <title>MONJU Portfolio</title>
   <link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
   <link rel="stylesheet" href="css/slick.css" />
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body>
   <header class="header">
@@ -71,58 +73,22 @@
   <section class="works" id="works">
     <h2 class="heading">WORKS</h2>
     <div class="works-wrapper">
-      <div class="work-box tree">
-        <img class="work-image" src="images/recotto.png" alt="制作事例１">
-        <div class="work-description">
-          <div class="work-description-inner">
-            <p class="work-text">
-              一つ目の制作事例が入ります。<br>
-              簡単な説明が入ります。<br>
-              使用ツール：xxx xxx xxx<br>
-              <a href="#" class="button button-ghost">READ MORE</a>
-            </p>
-          </div>
-        </div>
+      <div class="slider-container">
+        <div class="slider">
+        <div><img src="images/recotto.png"></div>
+        <div><img src="images/720.jpeg"></div>
+        <div><img src="https://unsplash.it/1280/720?image=1000"></div>
+        <div><img src="https://unsplash.it/1280/720?image=985"></div>
+        <div><img src="https://unsplash.it/1280/720?image=957"></div>
+        <div><img src="https://unsplash.it/1280/720?image=916"></div>
+        <div><img src="https://unsplash.it/1280/720?image=903"></div>
+        <div><img src="https://unsplash.it/1280/720?image=896"></div>
+        <div><img src="https://unsplash.it/1280/720?image=869"></div>
       </div>
-      <div class="work-box building">
-        <img class="work-image" src="images/placeholder.jpg" alt="制作事例２">
-        <div class="work-description">
-          <div class="work-description-inner">
-            <p class="work-text">
-              ふたつ目の制作事例が入ります。<br>
-              簡単な説明が入ります。<br>
-              使用ツール：xxx xxx xxx<br>
-              <a href="#" class="button button-ghost">READ MORE</a>
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="work-box lake">
-        <img class="work-image" src="images/placeholder.jpg" alt="制作事例３">
-        <div class="work-description">
-          <div class="work-description-inner">
-            <p class="work-text">
-              ３つ目の制作事例が入ります。<br>
-              簡単な説明が入ります。<br>
-              使用ツール：xxx xxx xxx<br>
-              <a href="#" class="button button-ghost">READ MORE</a>
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="work-box sky">
-        <img class="work-image" src="images/placeholder.jpg" alt="制作事例４">
-        <div class="work-description">
-          <div class="work-description-inner">
-            <p class="work-text">
-              ４つ目の制作事例が入ります。<br>
-              簡単な説明が入ります。<br>
-              使用ツール：xxx xxx xxx<br>
-              <a href="#" class="button button-ghost">READ MORE</a>
-            </p>
-          </div>
-        </div>
-      </div>
+    </div>
+<div class="slider-nav-container">
+  <div class="slider-nav"></div>
+</div>
     </div>
   </section>
   
@@ -141,6 +107,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
   <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-  <script type="text/javascript" src="lib/slick.js"></script>
+  <script type="text/javascript" src="lib/slick.min.js"></script>
+  <script type="text/javascript" src="lib/script.js"></script>
 </body>
 </html>
