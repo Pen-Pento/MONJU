@@ -27,13 +27,12 @@
     <h2 class="heading">ABOUT US</h2>
     <div class="about-wrapper">
     <p class="about-text">
-      初めまして。私たちはWebクリエイター集団MONJUです。<br>
-      板垣・大越・橋本の３人で、Web関連で開発・制作をしています。
-    </p>
-    <p class="about-text">
+      どうも。Webクリエイターチーム<strong>「MONJU」</strong>です。<br>
+      主にWeb関連で開発・制作をしています。<br>
+      HTML・CSS・PHP・Ruby・JavaScript・Swiftなどの言語、<br>およびそれに関連するフレームワークを扱うことができます。<br>
       このサイトを通して、私たちについて少しでも深く知っていただけたらと思います。<br>
       また、受託事業も行っておりますので、お気軽にご連絡ください。<br>
-      ご連絡ごは順次ご相談させていただく形になります。
+      ご連絡後は順次ご相談させていただく形になります。<br>
     </p>
     <img class="about-logo" src="images/top_logo.png" alt="logo">
     </div>
@@ -45,18 +44,18 @@
         <i class="skill-icon ideas-color fas fa-lightbulb"></i>
         <div class="skill-title">IDEAS</div>
         <p class="skill-text">
-          何かを考えることが好きです。<br>
-          新しいことを思いついては試しています。<br>
-          ディレクションの経験もあります。
+          考えることがとても好きです。<br>
+          湯水のごとくアイデアが浮かびます。<br>
+          3人寄ればなんとやらと言いますよね。
         </p>
       </div>
       <div class="skill-box">
         <i class="skill-icon design-color fas fa-palette"></i>
         <div class="skill-title">DESIGN</div>
         <p class="skill-text">
-          見た目の綺麗さだけじゃなくて、<br>
-          使いやすさ、情報の伝わりやすさなど、<br>
-          その先まで考えることを意識しています。
+          見た目の美しさだけではなく、<br>
+          利便性や、情報の伝わりやすさなど、<br>
+          UXが高いデザインを意識しています。
         </p>
       </div>
       <div class="skill-box">
@@ -94,10 +93,11 @@
   
   <section class="contact" id="contact">
     <h2 class="heading">CONTACT</h2>
-    <form class="contact-form">
-      <input type="text" name="name" placeholder="NAME">
+    <form class="contact-form" action="mail.php" method="post">
+      <input type="text" name="name" placeholder="NAME" required>
+      <input type="text" name="e-mail" placeholder="E-MAIL" required>
       <textarea name="message" placeholder="MESSAGE"></textarea>
-      <input type="submit" value="SEND">
+      <input type="submit" value="SEND" required>
     </form>
   </section>
   <footer class="footer">
