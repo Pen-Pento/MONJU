@@ -195,12 +195,33 @@ body {
   letter-spacing: 1px;
 }
 
-
+/* --------------------------------
+ * team
+ * -------------------------------- */
+ .team{
+  padding: 80px 0;
+ }
+ .team-wrapper{
+   padding-top: 50px;
+ }
+ .team-box{
+   display: inline-block;
+   padding: 0 80px;
+ }
+ .name{
+   font-size: 2rem;
+ }
+.member-img{
+  width: 200px;
+  height: 200px;
+}
 /* --------------------------------
  * contact
  * -------------------------------- */
 .contact {
   padding: 80px 0 150px;
+  background-color: #44546a;
+  color: #fff;
 }
 .contact-form {
   width: 50%;
@@ -213,14 +234,14 @@ body {
   margin-bottom: 10px;
   padding: 15px;
   outline: none;
-  border: 5px solid #3B3838;
+  border: 5px solid #fff;
   border-radius: 15px;
-  background-color: rgba(255, 255, 255, 0.05);
   color: #3b3838;
 }
 .contact-form input[type=text]:focus,
 .contact-form textarea:focus {
   box-shadow: 0 0 8px rgba(255, 255, 255, 0.5) inset;
+  
 }
 .contact-form textarea {
   height: 150px;
@@ -250,7 +271,8 @@ body {
  * -------------------------------- */
 .footer {
   padding: 12px 0;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
+  background-color: #fff;
 }
 
 /*---------------------------------
@@ -362,6 +384,21 @@ body {
  }
  
  /* --------------------------------
+ * team
+ * -------------------------------- */
+ .team-wrapper,
+ .team-box{
+   display: block;
+ }
+ .member-img{
+   width: 100px;
+   height: 100px;
+   margin-bottom: 10px;
+ }
+ .name{
+   font-size: 2rem;
+ }
+ /* --------------------------------
  * contact
  * -------------------------------- */
  .contact-form{
@@ -372,7 +409,7 @@ body {
    padding: 50px 0 50px 0;
  }
  
-  /* --------------------------------
+/* --------------------------------
  * heading margin fix
  * -------------------------------- */
  .about{
