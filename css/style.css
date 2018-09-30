@@ -444,7 +444,9 @@ nav.globalMenuSp.active {
  .menu{
   display:block;
  }
-
+ .buttons{
+   display: none;
+ }
 /* --------------------------------
  * header
  * -------------------------------- */
